@@ -1,0 +1,40 @@
+body {
+    font-family:'Times New Roman', Times, serif, sans-serif;
+    margin: 20px;
+    
+    background-image: url(bhavya.png);
+    background-size: cover;
+    color: aliceblue;
+  }
+  
+  h1 {
+    text-align: center;
+        color:#db0e0e;
+      margin-bottom: 50px;
+      text-shadow: 3px 3px 5px rgb(215, 226, 63);
+      font-size: 40px;
+
+  }
+  
+  form {
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+  
+  input,
+  select,
+  button {
+    margin: 5px;
+    border: 2px solid #b44519;
+    padding: 10px;
+    
+  }
+  
+  #productList {
+    border: 2px solid #9ea4dd;
+    padding: 10px;
+    
+  }
+
+
+  

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Seller Appointment</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <h1>Seller Appointment</h1>
+
+  <form id="addProductForm">
+    <input type="text" id="productNameInput" placeholder="Product Name" required>
+    <input type="text" id="priceInput" placeholder="Selling Price" required>
+    <select id="categorySelect" required>
+      <option value="">Choose Category</option>
+      <option value="Electronics">Electronics</option>
+      <option value="Clothing">Clothing</option>
+      <option value="Books">Books</option>
+      <option value="accesories">Accesories</option>
+      
+    </select>
+    <button type="submit">Add Product</button>
+  </form>
+
+  <div id="productList"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
